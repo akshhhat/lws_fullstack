@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To Travel Form </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <img src="lws.jpg" alt="lws school" class="bgimg">
+    <div class="container">
+        <h1> Welcome to Little World School US Trip Form </h1>
+        <p>Enter Your details to confirm the registration for the trip.</p>
+     
+        <div class="form">
+            <form action="in.php" method="post">
+                <input type="text" name="name" id="name" placeholder="Enter your name ">
+                <input type="age" name="age" id="age" placeholder="Enter your Age ">
+                <input type="email" name="email" id="email" placeholder="Enter your Email ID ">
+                <input type="phone" name="phone" id="phone" placeholder="Enter your phone no ">
+                <select name="gender">
+                    <option value="">Please select your Gender Type</option>
+                    <option value="female">Female</option>
+                    <option value="male">Male</option>
+                    <option value="non-binary">Non-Binary</option>
+                    <option value="other">Other</option>
+                    <option value="Prefer not to answer">Perfer not to Answer</option>
+                    <textarea name="description" id="description" cols="30" rows="10"
+                        placeholder="Enter your Other Information here"> </textarea>
+                    <button class="btn">Submit</button>
+
+            </form>
+
+        </div>
+    </div>
+</body>
+
+</html>
